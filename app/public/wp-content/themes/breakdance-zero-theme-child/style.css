@@ -1,0 +1,300 @@
+/* @override 
+	https://wpmb.medianotions.de/wp-content/themes/breakdance-zero-theme-child/style.css?*
+*/
+
+/*
+	Theme Name:   Breakdance Zero Child Theme 
+	Theme URI:    https://generatepress.com
+	Description:  by Medianotions
+	Author:       Bogdan Günther
+	Author URI:   https://www.medianotions.de
+	Template:     breakdance-zero-theme-master
+	Version:      0.1
+*/
+
+/* @group Seite */
+
+body
+{
+	max-width: 2400px;
+	margin: 0 auto;
+}
+
+/* @end */
+
+/* @group Inhalte */
+
+/* @group Gravitiy Forms */
+
+.gform_required_legend
+{
+	margin-bottom: 1em;
+}
+
+.gform_wrapper.gravity-theme .gfield
+{
+	margin-bottom: 0.5em;
+}
+
+.gform_wrapper.gravity-theme .gfield_label
+{
+	font-size: inherit;
+}
+
+.gform_wrapper.gravity-theme input,
+.gform_wrapper.gravity-theme select,
+.gform_wrapper.gravity-theme textarea
+{
+	font-size: inherit !important;
+}
+
+.gform_wrapper.gravity-theme .gfield-choice-input + label
+{
+	font-size: inherit;
+}
+
+.gfield.anrede .gchoice
+{
+	float: left;
+	width: 100px;
+}
+
+.gfield .gfield_checkbox li
+{
+	margin-bottom: 1em !important;
+}
+
+.gfield .gfield_checkbox li input
+{
+	margin-top: 5px;
+	margin-right: 5px;
+	vertical-align: top !important;
+}
+
+/* @end */
+
+/* @end */
+
+#happyforms-2180_number_19, #happyforms-2180_number_20, #happyforms-2180_number_21, #happyforms-2180_number_22 {
+   height: 56px !important;
+   width: 39px !important;
+   border-radius: 0px !important;
+   text-align: center;
+   padding: 0px;
+   margin-left: 80px;
+   font-family: inter;
+   font-size: 16px !important;
+   font-weight: 400 !important; 
+}
+#happyforms-2180_image_4-part {
+  height: 129px !important;
+  width: 193px !important;
+  padding: 0px;
+  margin-left: 20px;
+}
+#happyforms-2180_image_2-part {
+  height: 129px !important;
+  width: 193px !important;
+  padding: 0px;
+  margin-left: 20px;
+  margin-right: 10px;
+}
+#happyforms-2180_image_3-part {
+  height: 129px !important;
+  width: 193px !important;
+  padding: 0px;
+  margin-left: 20px;
+  margin-right: 10px;
+}
+#happyforms-2180_image_1-part  {
+  height: 129px !important;
+  width: 193px !important;
+  padding: 0px;
+  margin-left: 5px;
+  margin-right: 10px;
+}
+
+
+
+
+.menu-item a {
+  font-family: Syne !important;
+  font-size: 16px !important;
+  font-weight: 400 !important; 
+  color: black !important;
+  text-decoration: none;
+} 
+.menu-item a:hover {
+  font-family: Syne;
+  font-size: 13px !important;
+  font-weight: 700 !important; 
+} 
+
+@media(min-width:1025px){
+.happyforms-styles .happyforms-part input[type=email], .happyforms-styles .happyforms-part input[type=password], .happyforms-styles .happyforms-part input[type=range], .happyforms-styles .happyforms-part input[type=tel], .happyforms-styles .happyforms-part input[type=text], .happyforms-styles .happyforms-part select.happyforms-select {
+   height: 71px !important;
+   padding: 24px !important;
+   width: 383px !important;
+   box-shadow: 0px 4px 14px 0px #0000000A !important;
+	
+}
+	}
+
+
+@media(min-width:1025px){
+.happyforms-styles .happyforms-part textarea {
+  height: 237px !important;
+  width: 383px !important;
+  box-shadow: 0px 4px 14px 0px #0000000A !important;
+}
+	}
+
+.happyforms-styles button[type="submit"].happyforms-button--submit, .happyforms-styles button[type="submit"][disabled].happyforms-button--submit {
+  -webkit-appearance:
+none;
+  height: 55px !important;
+  width: 198px;
+  font-size: 15px !important;
+	}
+
+.happyforms-styles .happyforms-layout-title {
+    font-weight: 700 !important;
+    font-family: syne;
+	font-size: 30px !important;
+	margin-bottom: 5px !important;
+}
+
+
+
+
+.separator {
+  transform: rotate(90deg);
+  width: 450px !important;
+  margin-left: 210px !important;
+	margin-right: 50px !important;
+  margin-top: -240px !important;
+}  	
+
+.liv{
+  
+padding-left: 38px !important;
+  
+}
+
+
+
+
+.form-pic-size-1 {
+  height: 129px !important;
+  width: 193px !important;
+  margin-left: 0px;
+}
+.ff-el-input--content{
+  padding-top: 10px;
+  padding-bottom: 12px;
+}
+.form-pic-size-2 {
+  height: 129px !important;
+  width: 193px !important;
+  margin-left: 5px;
+}
+.form-pic-size-3 {
+  height: 129px !important;
+  width: 193px !important;
+  margin-left: 5px;
+}
+.form-pic-size-4 {
+  height: 129px !important;
+  width: 193px !important;
+  margin-left: 10px;
+}
+
+#ff_4_numeric_field_4, #ff_4_numeric_field_5, #ff_4_numeric_field_6, #ff_4_numeric_field {
+	height: 56px !important;
+    width: 39px !important;
+	border-radius: 0px !important;
+	text-align: center;
+    padding:  0px;
+	-moz-appearance: textfield;
+}
+
+
+.fluentform .ff-el-form-control[type="number"] {
+   width: 39px;
+   border: 1px solid var(--color-grey);
+   border-radius: 0px;
+   font-size: 16px;
+}
+.ff-t-cell ff-t-column-1 {
+   width: 193px !important;
+}
+.ff-el-form-control {
+  height: 71px !important;
+  width: 383px !important;
+  box-shadow: 0px 4px 14px 0px #0000000A;
+}
+.ff-el-input--content {	
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form-text-liv {
+ font-size: 30px;
+ font-family: Syne !important;
+ font-weight: 700 !important; 
+ color: white;
+ padding-top: 20px;
+}
+
+.form-text-inf {
+ font-size: 30px;
+ font-family: Syne !important;
+ font-weight: 700 !important; 
+ color: white;
+ padding-top: 20px;
+}
+.ff-default .ff-el-input--label label {
+ font-size: 20px;
+ font-family: Syne !important;
+ font-weight: 400 !important; 
+ color: white;
+}
+.ff-t-cell ff-t-column-3{
+ align-items: center;
+ justify-content: end;
+}
+
+.ff-default .ff_btn_style {
+  background-color: #E0B9B4 !important;
+  font-size: 15px;
+  font-weight: 400;
+  height: 55px !important;
+  width: 198px !important;
+}
+.form-div {
+  margin-top: -30px;
+}
+.ff-t-cell ff-t-column-1 {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+/* Firefox */
+input[type=number] {
+    -moz-appearance: textfield;
+}
+ 
+/* Chrome */
+input::-webkit-inner-spin-button,
+input::-webkit-outer-spin-button { 
+	-webkit-appearance: none;
+	margin:0;
+}
+ 
+/* Opéra*/
+input::-o-inner-spin-button,
+input::-o-outer-spin-button { 
+	-o-appearance: none;
+	margin:0
+}
