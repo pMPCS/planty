@@ -86,12 +86,14 @@ body
    font-size: 16px !important;
    font-weight: 400 !important; 
 }
+
 #happyforms-2180_image_4-part {
   height: 129px !important;
   width: 193px !important;
   padding: 0px;
   margin-left: 20px;
 }
+
 #happyforms-2180_image_2-part {
   height: 129px !important;
   width: 193px !important;
@@ -99,6 +101,7 @@ body
   margin-left: 20px;
   margin-right: 10px;
 }
+
 #happyforms-2180_image_3-part {
   height: 129px !important;
   width: 193px !important;
@@ -106,6 +109,7 @@ body
   margin-left: 20px;
   margin-right: 10px;
 }
+
 #happyforms-2180_image_1-part  {
   height: 129px !important;
   width: 193px !important;
@@ -114,16 +118,14 @@ body
   margin-right: 10px;
 }
 
-
-
-
 .menu-item a {
   font-family: Syne !important;
   font-size: 16px !important;
   font-weight: 400 !important; 
   color: black !important;
   text-decoration: none;
-} 
+}
+
 .menu-item a:hover {
   font-family: Syne;
   font-size: 13px !important;
@@ -139,7 +141,6 @@ body
 	
 }
 	}
-
 
 @media(min-width:1025px){
 .happyforms-styles .happyforms-part textarea {
@@ -164,122 +165,18 @@ none;
 	margin-bottom: 5px !important;
 }
 
-
-
-
 .separator {
   transform: rotate(90deg);
   width: 450px !important;
   margin-left: 210px !important;
-	margin-right: 50px !important;
+  margin-right: 50px !important;
   margin-top: -240px !important;
 }  	
 
 .liv{
-  
-padding-left: 38px !important;
-  
+  padding-left: 38px !important;
 }
 
-
-
-
-.form-pic-size-1 {
-  height: 129px !important;
-  width: 193px !important;
-  margin-left: 0px;
-}
-.ff-el-input--content{
-  padding-top: 10px;
-  padding-bottom: 12px;
-}
-.form-pic-size-2 {
-  height: 129px !important;
-  width: 193px !important;
-  margin-left: 5px;
-}
-.form-pic-size-3 {
-  height: 129px !important;
-  width: 193px !important;
-  margin-left: 5px;
-}
-.form-pic-size-4 {
-  height: 129px !important;
-  width: 193px !important;
-  margin-left: 10px;
-}
-
-#ff_4_numeric_field_4, #ff_4_numeric_field_5, #ff_4_numeric_field_6, #ff_4_numeric_field {
-	height: 56px !important;
-    width: 39px !important;
-	border-radius: 0px !important;
-	text-align: center;
-    padding:  0px;
-	-moz-appearance: textfield;
-}
-
-
-.fluentform .ff-el-form-control[type="number"] {
-   width: 39px;
-   border: 1px solid var(--color-grey);
-   border-radius: 0px;
-   font-size: 16px;
-}
-.ff-t-cell ff-t-column-1 {
-   width: 193px !important;
-}
-.ff-el-form-control {
-  height: 71px !important;
-  width: 383px !important;
-  box-shadow: 0px 4px 14px 0px #0000000A;
-}
-.ff-el-input--content {	
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.form-text-liv {
- font-size: 30px;
- font-family: Syne !important;
- font-weight: 700 !important; 
- color: white;
- padding-top: 20px;
-}
-
-.form-text-inf {
- font-size: 30px;
- font-family: Syne !important;
- font-weight: 700 !important; 
- color: white;
- padding-top: 20px;
-}
-.ff-default .ff-el-input--label label {
- font-size: 20px;
- font-family: Syne !important;
- font-weight: 400 !important; 
- color: white;
-}
-.ff-t-cell ff-t-column-3{
- align-items: center;
- justify-content: end;
-}
-
-.ff-default .ff_btn_style {
-  background-color: #E0B9B4 !important;
-  font-size: 15px;
-  font-weight: 400;
-  height: 55px !important;
-  width: 198px !important;
-}
-.form-div {
-  margin-top: -30px;
-}
-.ff-t-cell ff-t-column-1 {
-  display: flex !important;
-  align-items: center !important;
-  justify-content: center !important;
-}
 /* Firefox */
 input[type=number] {
     -moz-appearance: textfield;
@@ -298,3 +195,10 @@ input::-o-outer-spin-button {
 	-o-appearance: none;
 	margin:0
 }
+
+
+
+
+
+
+
