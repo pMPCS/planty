@@ -75,6 +75,10 @@ body
 
 /* @end */
 
+/*  MON CODE CSS */
+
+/*  position et mise en forme des champs nombre-formulaire commande */
+
 #happyforms-2180_number_19, #happyforms-2180_number_20, #happyforms-2180_number_21, #happyforms-2180_number_22 {
    height: 56px !important;
    width: 39px !important;
@@ -86,7 +90,7 @@ body
    font-size: 16px !important;
    font-weight: 400 !important; 
 }
-
+/*  position et mise en forme des images-formulaire commande */
 #happyforms-2180_image_4-part {
   height: 129px !important;
   width: 193px !important;
@@ -117,7 +121,9 @@ body
   margin-left: 5px;
   margin-right: 10px;
 }
+/*  @ End @ position et mise en forme des images-formulaire commande */
 
+/*  réglage menu */
 .menu-item a {
   font-family: Syne !important;
   font-size: 16px !important;
@@ -131,18 +137,18 @@ body
   font-size: 13px !important;
   font-weight: 700 !important; 
 } 
-
+/*  mise en forme et ombrage des champs-formulaire commande et contac */
 @media(min-width:1025px){
 .happyforms-styles .happyforms-part input[type=email], .happyforms-styles .happyforms-part input[type=password], .happyforms-styles .happyforms-part input[type=range], .happyforms-styles .happyforms-part input[type=tel], .happyforms-styles .happyforms-part input[type=text], .happyforms-styles .happyforms-part select.happyforms-select {
    height: 71px !important;
    padding: 24px !important;
    width: 383px !important;
    box-shadow: 0px 4px 14px 0px #0000000A !important;
-	
+
 }
 	}
-
-@media(min-width:1025px){
+/*  mise en forme et ombrage du champ texte-formulaire contac */
+@media(min-width: 1118px){
 .happyforms-styles .happyforms-part textarea {
   height: 237px !important;
   width: 383px !important;
@@ -150,13 +156,71 @@ body
 }
 	}
 
+/*  position du bouton soumettre-formulaire commande */
+@media(max-width: 1119px){
 .happyforms-styles button[type="submit"].happyforms-button--submit, .happyforms-styles button[type="submit"][disabled].happyforms-button--submit {
-  -webkit-appearance:
-none;
+ margin-left: 18px !important;
+ 
+}
+	}
+
+/*  position du bloc de champs-formulaire contact */
+@media(max-width: 1119px){
+.breakdance .bde-shortcode-12-171 {
+  padding-left: 0px !important;
+}
+	}
+
+
+/*  position du bloc de champs-formulaire contact */
+@media(min-width:1025px){
+.form-contact {
+ margin-left: 0px !important;
+}
+	}
+@media(max-width: 360px){
+.happyforms-styles button[type="submit"].happyforms-button--submit, .happyforms-styles button[type="submit"][disabled].happyforms-button--submit {
+ margin-left: 0px !important;
+ margin-right: 5px !important;
+	height: 50px !important;
+   padding: 24px !important;
+   width: 150px !important;
+}
+	}
+@media(max-width: 375px){
+.happyforms-styles button[type="submit"].happyforms-button--submit, .happyforms-styles button[type="submit"][disabled].happyforms-button--submit {
+ margin-left: 8px !important;
+ 
+}
+	}
+@media(max-width: 390px){
+.happyforms-styles button[type="submit"].happyforms-button--submit, .happyforms-styles button[type="submit"][disabled].happyforms-button--submit {
+ margin-left: 13px !important;
+}
+	}
+@media(max-width: 414px){
+.happyforms-styles button[type="submit"].happyforms-button--submit, .happyforms-styles button[type="submit"][disabled].happyforms-button--submit {
+ margin-left: 19px !important;
+}
+	}
+@media(max-width: 428px){
+.happyforms-styles button[type="submit"].happyforms-button--submit, .happyforms-styles button[type="submit"][disabled].happyforms-button--submit {
+ margin-left: 20px !important;
+}
+	}
+
+@media(max-width: 479px){
+.happyforms-styles button[type="submit"].happyforms-button--submit, .happyforms-styles button[type="submit"][disabled].happyforms-button--submit {
+ margin-left: 12px !important;
+}
+	}
+
+.happyforms-styles button[type="submit"].happyforms-button--submit, .happyforms-styles button[type="submit"][disabled].happyforms-button--submit {
+  -webkit-appearance: none;
   height: 55px !important;
   width: 198px;
   font-size: 15px !important;
-	}
+}
 
 .happyforms-styles .happyforms-layout-title {
     font-weight: 700 !important;
@@ -171,12 +235,13 @@ none;
   margin-left: 210px !important;
   margin-right: 50px !important;
   margin-top: -240px !important;
+	
 }  	
 
 .liv{
   padding-left: 38px !important;
 }
-
+/* cacher les spin button-formulaire commande */
 /* Firefox */
 input[type=number] {
     -moz-appearance: textfield;
@@ -195,10 +260,5 @@ input::-o-outer-spin-button {
 	-o-appearance: none;
 	margin:0
 }
-
-
-
-
-
 
 
