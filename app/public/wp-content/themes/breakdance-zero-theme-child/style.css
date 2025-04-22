@@ -75,91 +75,94 @@ body
 
 /* @end */
 
-/*  MON CODE CSS */
+                                                                 /*  MON CODE CSS */
 
 /*  position et mise en forme des champs nombre-formulaire commande */
-
 #happyforms-2180_number_19, #happyforms-2180_number_20, #happyforms-2180_number_21, #happyforms-2180_number_22 {
-   height: 56px !important;
-   width: 39px !important;
-   border-radius: 0px !important;
-   text-align: center;
-   padding: 0px;
-   margin-left: 80px;
-   font-family: inter;
-   font-size: 16px !important;
-   font-weight: 400 !important; 
+    height: 56px !important;
+    width: 39px !important;
+    border-radius: 0px !important;
+    text-align: center;
+    padding: 0px;
+    margin-left: 80px;
+    font-family: inter;
+    font-size: 16px !important;
+    font-weight: 400 !important; 
 }
+
 /*  position et mise en forme des images-formulaire commande */
 #happyforms-2180_image_4-part {
-  height: 129px !important;
-  width: 193px !important;
-  padding: 0px;
-  margin-left: 20px;
+   height: 129px !important;
+   width: 193px !important;
+   padding: 0px;
+   margin-left: 20px;
 }
 
 #happyforms-2180_image_2-part {
-  height: 129px !important;
-  width: 193px !important;
-  padding: 0px;
-  margin-left: 20px;
-  margin-right: 10px;
+   height: 129px !important;
+   width: 193px !important;
+   padding: 0px;
+   margin-left: 20px;
+   margin-right: 10px;
 }
 
 #happyforms-2180_image_3-part {
-  height: 129px !important;
-  width: 193px !important;
-  padding: 0px;
-  margin-left: 20px;
-  margin-right: 10px;
+   height: 129px !important;
+   width: 193px !important;
+   padding: 0px;
+   margin-left: 20px;
+   margin-right: 10px;
 }
 
 #happyforms-2180_image_1-part  {
-  height: 129px !important;
-  width: 193px !important;
-  padding: 0px;
-  margin-left: 5px;
-  margin-right: 10px;
+   height: 129px !important;
+   width: 193px !important;
+   padding: 0px;
+   margin-left: 5px;
+   margin-right: 10px;
 }
-/*  @ End @ position et mise en forme des images-formulaire commande */
+/*  @End position et mise en forme des images-formulaire commande */
 
 /*  réglage menu */
 .menu-item a {
-  font-family: Syne !important;
-  font-size: 16px !important;
-  font-weight: 400 !important; 
-  color: black !important;
-  text-decoration: none;
+   font-family: Syne !important;
+   font-size: 16px !important;
+   font-weight: 400 !important; 
+   color: black !important;
+   text-decoration: none;
 }
 
 .menu-item a:hover {
-  font-family: Syne;
-  font-size: 13px !important;
-  font-weight: 700 !important; 
+   font-family: Syne;
+   font-size: 13px !important;
+   font-weight: 700 !important; 
 } 
+/*  @End réglage menu */
+
 /*  mise en forme et ombrage des champs-formulaire commande et contac */
 @media(min-width:1025px){
 .happyforms-styles .happyforms-part input[type=email], .happyforms-styles .happyforms-part input[type=password], .happyforms-styles .happyforms-part input[type=range], .happyforms-styles .happyforms-part input[type=tel], .happyforms-styles .happyforms-part input[type=text], .happyforms-styles .happyforms-part select.happyforms-select {
-   height: 71px !important;
-   padding: 24px !important;
-   width: 383px !important;
-   box-shadow: 0px 4px 14px 0px #0000000A !important;
+    height: 71px !important;
+    padding: 24px !important;
+    width: 383px !important;
+    box-shadow: 0px 4px 14px 0px #0000000A !important;
 
 }
 	}
+
 /*  mise en forme et ombrage du champ texte-formulaire contac */
 @media(min-width: 1118px){
 .happyforms-styles .happyforms-part textarea {
-  height: 237px !important;
-  width: 383px !important;
-  box-shadow: 0px 4px 14px 0px #0000000A !important;
+    height: 237px !important;
+    width: 383px !important;
+    box-shadow: 0px 4px 14px 0px #0000000A !important;
 }
 	}
 
 /*  position du bouton soumettre-formulaire commande */
 @media(max-width: 1119px){
 .happyforms-styles button[type="submit"].happyforms-button--submit, .happyforms-styles button[type="submit"][disabled].happyforms-button--submit {
- margin-left: 18px !important;
+    margin-left: 18px !important;
  
 }
 	}
@@ -167,61 +170,64 @@ body
 /*  position du bloc de champs-formulaire contact */
 @media(max-width: 1119px){
 .breakdance .bde-shortcode-12-171 {
-  padding-left: 0px !important;
+    padding-left: 0px !important;
 }
 	}
-
 
 /*  position du bloc de champs-formulaire contact */
 @media(min-width:1025px){
 .form-contact {
- margin-left: 0px !important;
+    margin-left: 0px !important;
 }
 	}
+
+/*  position du bouton envoyer-formulaire contact */
 @media(max-width: 360px){
 .happyforms-styles button[type="submit"].happyforms-button--submit, .happyforms-styles button[type="submit"][disabled].happyforms-button--submit {
- margin-left: 0px !important;
- margin-right: 5px !important;
-	height: 50px !important;
-   padding: 24px !important;
-   width: 150px !important;
+    margin-left: 0px !important;
+    margin-right: 5px !important;
+    height: 50px !important;
+    padding: 24px !important;
+    width: 150px !important;
 }
 	}
 @media(max-width: 375px){
 .happyforms-styles button[type="submit"].happyforms-button--submit, .happyforms-styles button[type="submit"][disabled].happyforms-button--submit {
- margin-left: 8px !important;
+    margin-left: 8px !important;
  
 }
 	}
 @media(max-width: 390px){
 .happyforms-styles button[type="submit"].happyforms-button--submit, .happyforms-styles button[type="submit"][disabled].happyforms-button--submit {
- margin-left: 13px !important;
+    margin-left: 13px !important;
 }
 	}
 @media(max-width: 414px){
 .happyforms-styles button[type="submit"].happyforms-button--submit, .happyforms-styles button[type="submit"][disabled].happyforms-button--submit {
- margin-left: 19px !important;
+    margin-left: 19px !important;
 }
 	}
 @media(max-width: 428px){
 .happyforms-styles button[type="submit"].happyforms-button--submit, .happyforms-styles button[type="submit"][disabled].happyforms-button--submit {
- margin-left: 20px !important;
+    margin-left: 20px !important;
 }
 	}
-
 @media(max-width: 479px){
 .happyforms-styles button[type="submit"].happyforms-button--submit, .happyforms-styles button[type="submit"][disabled].happyforms-button--submit {
- margin-left: 12px !important;
+    margin-left: 12px !important;
 }
 	}
+/* @end position du bouton envoyer-formulaire contact */
 
+/*  taille du bouton "envoyer" "commander"-tous formulaires  */
 .happyforms-styles button[type="submit"].happyforms-button--submit, .happyforms-styles button[type="submit"][disabled].happyforms-button--submit {
-  -webkit-appearance: none;
-  height: 55px !important;
-  width: 198px;
-  font-size: 15px !important;
+    -webkit-appearance: none;
+    height: 55px !important;
+    width: 198px;
+    font-size: 15px !important;
 }
 
+/*  taille des titres "vos informations" "livraisons"-formulaire commander  */
 .happyforms-styles .happyforms-layout-title {
     font-weight: 700 !important;
     font-family: syne;
@@ -229,18 +235,20 @@ body
 	margin-bottom: 5px !important;
 }
 
+/*  réglages séparateur vertical-formulaire commander  */
 .separator {
-  transform: rotate(90deg);
-  width: 450px !important;
-  margin-left: 210px !important;
-  margin-right: 50px !important;
-  margin-top: -240px !important;
-	
-}  	
+    transform: rotate(90deg);
+    width: 450px !important;
+    margin-left: 210px !important;
+    margin-right: 50px !important;
+    margin-top: -240px !important;
+}  
 
+/*  réglages du titre "livraison"-formulaire commander  */
 .liv{
-  padding-left: 38px !important;
+    padding-left: 38px !important;
 }
+
 /* cacher les spin button-formulaire commande */
 /* Firefox */
 input[type=number] {
@@ -260,5 +268,4 @@ input::-o-outer-spin-button {
 	-o-appearance: none;
 	margin:0
 }
-
 

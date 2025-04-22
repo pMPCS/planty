@@ -114,3 +114,8 @@
 [17-Apr-2025 04:49:51] NOTICE: exiting, bye-bye!
 [17-Apr-2025 04:50:07] NOTICE: fpm is running, pid 1515
 [17-Apr-2025 04:50:07] NOTICE: ready to handle connections
+[22-Apr-2025 00:06:17] NOTICE: Terminating ...
+[22-Apr-2025 00:06:17] NOTICE: Terminating ...
+[22-Apr-2025 00:06:17] NOTICE: exiting, bye-bye!
+[22-Apr-2025 00:06:22] NOTICE: fpm is running, pid 93787
+[22-Apr-2025 00:06:22] NOTICE: ready to handle connections
