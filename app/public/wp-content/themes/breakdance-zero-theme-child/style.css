@@ -137,6 +137,14 @@ body
    font-size: 13px !important;
    font-weight: 700 !important; 
 } 
+
+@media(max-width:1025px){
+.menu-item a {
+    padding-left: 20px;
+
+}
+	}
+
 /*  @End réglage menu */
 
 /*  mise en forme et ombrage des champs-formulaire commande et contac */
